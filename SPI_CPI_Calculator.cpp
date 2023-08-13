@@ -4,7 +4,8 @@ int total_credit_point(int credit[],int cr,string grade[],int result[]);
 float spi_cal();
 float cpi_cal();
 int main(){
-int choice,check,check1;
+int choice;
+float check,check1;
 cout<<"Enter your choice:1)SPI Calculation 2)CPI Calculation 3)SPI & CPI Calculation\n";
 cin>>choice;
 switch (choice){
